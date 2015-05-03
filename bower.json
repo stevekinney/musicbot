@@ -1,0 +1,27 @@
+{
+  "name": "musicbot",
+  "main": "index.js",
+  "version": "1.0.0",
+  "authors": [
+    "Steve Kinney <hello@stevekinney.net>"
+  ],
+  "description": "A Johnny-Five and Socket.io experiment",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "johnny-five"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
