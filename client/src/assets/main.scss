@@ -1,0 +1,39 @@
+@import './colors';
+@import './typography';
+@import './button';
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  margin: 1em auto;
+  max-width: 640px;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 1em;
+}
+
+td {
+  border: 1px solid white;
+  text-align: center;
+  font-size: 2em;
+}
+
+.pressed {
+  border: 1px solid darken($lightBlue, 10);
+  background-color: $lightBlue;
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Music Bot</title>
+    <link rel="stylesheet" href="components/fira/fira.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1>Music Bot</h1>
+
+      <div id="application"></div>
+
+      <table>
+        <tr>
+          <th>Root Note</th>
+          <th>Minor Third</th>
+          <th>Major Third</th>
+          <th>Perfect Fifth</th>
+        </tr>
+        <tr>
+          <td class="root-note"></td>
+          <td class="minor-third"></td>
+          <td class="major-third"></td>
+          <td class="perfect-fifth"></td>
+        </tr>
+      </table>
+
+      <p>If you enjoyed this, check out <a href="http://github.com/stevekinney/music-bot">the source code on Github</a> or <a href="http://twitter.com/stevekinney">follow Steve on Twitter</a>.</p>
+
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="bundle.js"></script>
+
+  </body>
+</html>

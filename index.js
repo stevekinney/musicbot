@@ -11,10 +11,10 @@ const path = require('path');
 
 require('./lib/board')(board, io);
 
-app.use(express.static('public'));
+app.use(express.static('client'));
 
 app.get('/', function (req, res){
-  res.sendFile(path.join(__dirname, '/public/index.html'));
+  res.sendFile(path.join(__dirname, '/client/index.html'));
 });
 
 http.listen(port, function(){
